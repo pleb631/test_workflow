@@ -2,7 +2,7 @@ name: Fetch Dog Image
 
 on:
   schedule:
-    - cron: '40,10 * * * *'   # 每天凌晨 1 点（UTC）自动执行
+    - cron: '0 0 * * *'   # 每天凌晨 1 点（UTC）自动执行
   workflow_dispatch:      # 允许手动运行
 
 permissions:
